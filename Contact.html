@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a id="logo" href="index.html"><img src="C:\Users\User\EDU-PRACTICE\Image\LOGOa.jpg" width="150"></a>
+            <div class="nanlinks" id="nanlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div><i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+
+    <!----CONTACT US-->
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20530.64195982387!2d5.189482476945591!3d7.261084294439066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478f90695c5dfb%3A0xe0a5d2bbf32a9161!2sAkure%2C%20Ondo!5e0!3m2!1sen!2sng!4v1673924039637!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-sharp fa-solid fa-house"></i>
+                    <span>
+                        <h5>Futa Southgate,</h5>
+                    <P>Akure</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <span>
+                        <h5>+234 903 509 7502</h5>
+                    <P>Monday to Sunday,<br> 8am to 6pm</P>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>chinedu.eze009@gmail.com</h5>
+                    <P>Contact via Email</P>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="Form-handler.php" method="post">
+                    
+                    <input type="text" name="name" placeholder="Enter your name"
+                    required>
+                    <input type="email" name="email" placeholder="Enter your Email Addresss"
+                    required>
+                    <input type="text" name="subject" placeholder="Enter your subject"
+                    required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+
+                </form>
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+        
+     <!-----footer-->
+
+    <section class="footer">
+        <h1>ABOUT US</h1>
+        <P>
+            Our university is a premier institution of higher education, committed to providing our students 
+            with a world-class education. We have a wide range of programs and resources to support student success,
+             from top-notch facilities and cutting-edge technology, to dedicated faculty and staff. Our diverse student 
+             body and variety of extracurricular activities provide a dynamic and inclusive environment for learning and 
+             personal growth. We have a strong commitment to research and innovation, and we strive to prepare our students
+              for successful careers and meaningful contributions to society. 
+            <br>We are proud of our tradition of excellence and are dedicated to helping our students achieve their full potential.
+        </P>
+        <div class="ICON">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+    </section>
+    
+
+    <!------ javascript for toggle menu------>
+    <script>
+        var nanlinks = document.getElementById("nanlinks");
+
+        function showMenu(){
+            nanlinks.style.right = "0";
+        }
+        function hideMenu(){
+            nanlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
