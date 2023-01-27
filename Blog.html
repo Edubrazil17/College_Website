@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a id="logo" href="index.html"><img src="C:\Users\User\EDU-PRACTICE\Image\LOGOa.jpg" width="150"></a>
+            <div class="nanlinks" id="nanlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div><i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        
+        <h1>Our Certificate And Online Programs</h1>
+
+    </section>
+
+
+    <!----blog content-->
+
+    <section class="blog">
+        <div class="row">
+            <div class="left">
+                <img src="C:\Users\User\EDU-PRACTICE\Image\certificate.jpg">
+                <h2>Our Certificate And Online programs</h2>
+                <p>Online education has become increasingly popular in recent years, and for good reason.
+                     It allows students to pursue their education from anywhere in the world, at their own pace,
+                      and on their own schedule. Our university is proud to offer a variety of online certificate 
+                      and degree programs that are designed to meet the needs of today's busy students.</p>
+                <br>
+                <p>One of the most popular options we offer is our certificate programs.
+                     These programs are designed to provide students with a specific set of skills and knowledge in a particular field. 
+                     They are a great option for students who want to advance their careers, 
+                     but do not have the time or resources to pursue a full degree. Our certificate programs 
+                     are taught by industry experts and are designed to provide students with the skills and
+                      knowledge they need to succeed in their chosen field. </p>
+                <br>
+                <p>In addition to our certificate programs, we also offer a variety of online degree programs.
+                     These programs are designed to provide students with a comprehensive education in a particular field.
+                      They are a great option for students who want to pursue a career in a specific field, 
+                      or who want to advance their current careers. Our online degree programs are taught by the same 
+                      distinguished faculty who teach on campus, and are designed to provide students with the same
+                       high-quality education as our traditional on-campus programs.</p>
+                <br>
+                <p>In conclusion, our university offers a variety of online certificate and degree programs that are designed
+                     to meet the needs of today's busy students. Whether you're looking to advance your career, 
+                     or simply want to pursue your education, we have a program that is right for you. Our online 
+                     programs offer flexibility, convenience, and the opportunity to learn from industry experts.
+                      Our certificate programs are a great way to gain specific skills and knowledge in a particular field,
+                       while our degree programs provide a comprehensive education in a particular field. We are committed 
+                       to providing our students with the resources and support they need to succeed, and we are confident 
+                       that our online programs will help our students achieve their goals. Enroll today and take the first
+                        step towards a brighter future.</p>
+
+
+                <div class="comment-box">
+                    <h2>Leave a comment</h2>
+    
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"> </textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="right">
+                <h2>Post Categories</h2>
+            
+            <div>
+                <span>Business Analytics</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>43</span>
+            </div>   
+            <div>
+                <span>Computer science</span>
+                <span>32</span>
+            </div>    
+            <div>
+                <span>Programming</span>
+                <span>55</span>
+            </div>
+            <div>
+                <span>Art And Culture</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Medcine</span>
+                <span>85</span>
+            </div>
+            </div>
+
+
+        </div>
+
+
+    </section>
+     <!-----footer-->
+
+     <section class="footer">
+        <h1>ABOUT US</h1>
+        <P>
+            Our university is a premier institution of higher education, committed to providing our students with a world-class education. We have a wide range of programs and resources to support student success, from top-notch facilities and cutting-edge technology, to dedicated faculty and staff. Our diverse student body and variety of extracurricular activities provide a dynamic and inclusive environment for learning and personal growth. We have a strong commitment to research and innovation, and we strive to prepare our students for successful careers and meaningful contributions to society. 
+            <br>We are proud of our tradition of excellence and are dedicated to helping our students achieve their full potential.
+        </P>
+        <div class="ICON">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+     </section>
+
+
+    <!------ javascript for toggle menu------>
+    <script>
+        var nanlinks = document.getElementById("nanlinks");
+
+        function showMenu(){
+            nanlinks.style.right = "0";
+        }
+        function hideMenu(){
+            nanlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+</html>
