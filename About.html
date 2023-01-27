@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a id="logo" href="index.html"><img src="C:\Users\User\EDU-PRACTICE\Image\LOGOa.jpg" width="150"></a>
+            <div class="nanlinks" id="nanlinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="BLOG.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+                
+            </div><i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            
+        </nav>
+        
+        <h1>ABOUT US</h1>
+
+    </section>
+
+
+    <!----about us content-->
+
+
+    <section class="about">
+        <h1>
+            We Are The World Leading Citadel
+        </h1>
+        <div class="row">
+           
+            <div class="about-col">
+               
+                <p>Edu University is a premier institution of higher learning, dedicated to providing students with the knowledge,
+                     skills, and experience they need to succeed in today's rapidly changing world.
+                     Our mission is to provide students with a comprehensive education that prepares them for a wide range of careers,
+                      while also fostering personal growth and intellectual curiosity.</p>
+                    <p>Our faculty is made up of experts in their respective fields, who are dedicated to providing students with the 
+                        latest research and knowledge. 
+                        They also bring a wealth of real-world experience to the classroom, providing students with valuable insight
+                         and hands-on learning opportunities.</p> 
+                        <p>We offer a wide range of undergraduate and graduate programs in a variety of disciplines, including Medcine,
+                             Computer Science, Art/Culture, Bussiness, Engineering.
+                             Our programs are designed to be flexible and responsive to the changing needs of the workforce, ensuring
+                              that students are well-prepared for the careers of today and tomorrow.</p>
+                             <p>Beyond the classroom, we offer a wide range of extracurricular activities, clubs, and organizations, 
+                                so students can explore their interests, meet new people, and gain valuable leadership experience. We 
+                                also have a strong tradition of community engagement and service, providing students with opportunities
+                                 to give back to their community and make a positive impact.</p>
+                             <p>At Edu University, we believe that education is about more than just earning a degree.
+                                 It's about developing the skills and knowledge to lead a fulfilling and meaningful life.
+                                  Whether you're just starting your college journey or looking to further your education,
+                                   we invite you to join us and discover all that we have to offer.</p>
+
+
+
+
+
+                <a href="" class="hero-btn red-btn">Explore Now</a>
+
+
+            </div>
+            <div class="about-col">
+                <img src="C:\Users\User\EDU-PRACTICE\Image\about.jpg">
+                <img src="C:\Users\User\EDU-PRACTICE\Image\med.jpg">
+                <img src="C:\Users\User\EDU-PRACTICE\Image\prog.jpg">
+                
+            </div>
+        </div>
+
+    </section>
+     
+
+     
+     
+     <!-----footer-->
+
+     <section class="footer">
+        <h1>ABOUT US</h1>
+        <P>
+            Our university is a premier institution of higher education, 
+            committed to providing our students with a world-class education.
+             We have a wide range of programs and resources to support student success,
+              from top-notch facilities and cutting-edge technology, to dedicated faculty and staff.
+               Our diverse student body and variety of extracurricular activities provide a dynamic 
+               and inclusive environment for learning and personal growth. We have a strong commitment
+                to research and innovation, and we strive to prepare our students for successful careers 
+                and meaningful contributions to society. 
+            <br>We are proud of our tradition of excellence and are dedicated to helping our students 
+            achieve their full potential.
+        </P>
+        <div class="ICON">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+     </section>
+
+
+    <!------ javascript for toggle menu------>
+    <script>
+        var nanlinks = document.getElementById("nanlinks");
+
+        function showMenu(){
+            nanlinks.style.right = "0";
+        }
+        function hideMenu(){
+            nanlinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+
+
+</html>
